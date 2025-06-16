@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style/app.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-black fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Alex</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Tentang Saya</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="certificates.html">Sertifikat</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center text-black py-5" style="background: #F5F7F8;">
+        <section data-aos="fade-left" data-aos-duration="2000" class="container my-5" style="padding-top: 80px;">
+            <h2 class="text-center mb-5">Hubungi Saya</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center mb-4">Jika Anda memiliki pertanyaan, proyek, atau ingin berdiskusi lebih
+                        lanjut,
+                        jangan ragu untuk menghubungi saya melalui formulir di bawah ini atau melalui info kontak
+                        lainnya.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-6 mb-4" data-aos="fade-up-right" data-aos-duration="2000">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title text-center mb-4">Kirim Pesan</h3>
+                            <form class="contact-form">
+                                <div class="mb-3">
+                                    <label for="namaLengkap" class="form-label">Nama Lengkap</label>
+                                    <input type="text" class="form-control" id="namaLengkap" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="emailPengirim" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="emailPengirim" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="pesan" class="form-label">Pesan</label>
+                                    <textarea class="form-control" id="pesan" rows="5" required></textarea>
+                                </div>
+                                <div class="d-grid gap-2">
+                                    <button type="submit" class="btn btn-outline-secondary btn-lg"><i
+                                            class="fas fa-paper-plane me-2"></i>
+                                        Kirim Pesan</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4" data-aos="fade-up-left" data-aos-duration="2000">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title text-center mb-4">Info Kontak Lain</h3>
+                            <ul class="list-unstyled text-center lead">
+                                <li class="mb-3">
+                                    <i class="fas fa-envelope me-2" style="color: #9DB2BF;"></i> Email:
+                                        <a href="mailto:alfin.arst016@gmail.com"><i style="color: #9DB2BF;">alfin.arst016@gmail.com</i></a>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-phone me-2" style="color: #9DB2BF;"></i> Telepon: +62 8591 0696 5051
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-map-marker-alt me-2" style="color: #9DB2BF;"></i> Lokasi: Waingapu, Sumba
+                                    Timur
+                                    Indonesia
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <footer class="text-black text-center py-4">
+        <div class="container">
+            <p>&copy; 2025 Alexandro. Hak Cipta Dilindungi.</p>
+            <div class="social-icons">
+                <a href="https://www.threads.com/@djaya_arst" class="text-black mx-2"><i
+                        class="fab fa-threads fa-lg"></i></a>
+                <a href="https://wa.me/62859106965051" class="text-black mx-2"><i class="fab fa-whatsapp fa-lg"></i></a>
+                <a href="https://github.com/Alex-016" class="text-black mx-2"><i class="fab fa-github fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

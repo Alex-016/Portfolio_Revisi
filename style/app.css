@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #eeeeee;
+    color: #343a40;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container.my-5 {
+    flex-grow: 1;
+    /* Pastikan konten section mengambil ruang yang tersedia */
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(to right, #FFFFFF, #CBF1F5, #800080);
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+}
+
+/* Jumbotron/Header */
+.jumbotron {
+    /* Hapus atau ganti properti background-color yang ada */
+    background: linear-gradient(to right, #FFFFFF, #CBF1F5, #800080);
+    color: white;
+    /* Pastikan teks tetap terbaca */
+    padding-top: 100px !important;
+    /* Properti lain yang sudah ada */
+}
+
+/* Jika Anda ingin gradasi yang berbeda, contoh lainnya: */
+/* .jumbotron {
+    background: linear-gradient(to bottom, #FF5733, #FFC300);
+    background-color: transparent !important;
+} */
+
+.jumbotron img {
+    border: 5px solid #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Card pada Home Section */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Portfolio Cards */
+.portfolio-item .card {
+    height: 100%;
+    /* Agar tinggi card sama */
+}
+
+.portfolio-item img {
+    height: 200px;
+    /* Tinggi gambar proyek yang konsisten */
+    object-fit: cover;
+}
+
+/* Kontak Form */
+.contact-form .form-control {
+    border-radius: 5px;
+}
+
+/* Testimoni Carousel */
+.carousel-item blockquote {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.carousel-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #FFFFFF, #CBF1F5, #800080);
+    color: #222831;
+}
+
+.social-icons a {
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffffff !important;
+}
+
+/* Progress Bar */
+.progress-bar-custom {
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    text-align: center;
+    background-color: #007bff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
